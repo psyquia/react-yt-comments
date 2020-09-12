@@ -1,0 +1,62 @@
+.filterbar {
+    height: 35px;
+    width: 80%;
+    max-width: 500px;
+    background: #525151;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.filterbar-header {
+    margin-left: 50px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.filterbar-text {
+    border: 2px solid #525151;
+    border-right-style: none;
+    height: 100%;
+    width: 100%;
+    color: white;
+    background: #272727;
+    padding: 0 0 0 15px;
+    font-size: 18px;
+    transition: all 0.2s ease-out;
+}
+
+.filterbar-text:hover {
+    font-size: 19px;
+    transition: all 0.2s ease-out;
+}
+
+.filterbar-submit-container {
+    width: 100px;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filterbar-submit-btn {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.filterbar-submit-btn:hover {
+    opacity: 100%;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.2s ease-out;
+}
+
+@media screen and (max-width: 700px) {
+    .filterbar, .filterbar-header {
+        margin-left: 15px;
+    }
+}

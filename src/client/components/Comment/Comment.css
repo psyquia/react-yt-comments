@@ -1,0 +1,136 @@
+.comment{
+    justify-content: center;
+    padding: 25px 50px 40px 50px;
+}
+
+.comment-body {
+    /* display: flex; */
+    justify-content:center;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
+
+.quotation-marks {
+    font-weight: bold;
+    padding: 0 8px 0 0px;
+    color: red;
+}
+
+.comment-author {
+    display:flex;
+    justify-content:center;
+    margin-bottom: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(180, 180, 180);
+    /* color: white; */
+}
+
+.comment-author-pfp {
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.like-count {
+    font-weight: bold;
+    /* color: rgb(200, 40, 40); */
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    padding-bottom: 10px;
+    opacity: 80%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* border: 1px solid blue; */
+}
+.icon-like {
+    color: rgb(255, 0, 0);
+    transform: scale(2);
+    margin: 5px 10px 0 5px;
+}
+
+.grey {
+    color: grey;
+}
+
+.reply-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.reply-container-all {
+    margin: 5px 50px 20px 50px;  
+    background: rgb(54, 54, 54);
+}
+
+.reply-container {
+    margin-top: 5px;
+    transform: scale(0.8);
+    width:100%;
+}
+
+img.reply {
+    transform: scale(0.8);
+}
+
+h3.reply {
+    font-size: 18px;
+}
+
+.button {
+    display:inline-block;
+    padding:3px 5px 3px 5px;
+    border:1px solid #FFFFFF;
+    margin:5px 0 0 20px;
+    width: 150px;
+    box-sizing: border-box;
+    color:white;
+    text-align:center;
+    transition: all 0.3s;
+}
+.button:hover{
+    color:black;
+    background-color:white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.moreReplies-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.btn-moreReplies {
+    margin-left: 0px;
+}
+
+@media screen and (max-width: 960px) {
+    .comment-body {
+        font-size: 28px;
+    }
+}
+
+@media all and (max-width:700px){
+    .comment-body {
+        font-size: 24px;
+    }
+    .comment{
+        padding: 15px 10px 5px 10px;
+    }
+
+    .reply-container-all {
+        margin: 5px 0 20px 0;  
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .comment-body {
+        font-size: 21px;
+    }
+}
